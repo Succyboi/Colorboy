@@ -13,10 +13,12 @@ Simply import the UnityPackage from the releases tab and add one of the componen
 ## The components.
 ### Colorboy
 For changing color palettes.
+
 ![The Colorboy component](Component0.png)
 
 ### Blurryboy
 For changing resolutions.
+
 ![The Blurryboy component](Component1.png)
 
 # Examples
