@@ -311,7 +311,7 @@ namespace Stupid
 				//palettes
 				if (colorMat && paletteColors.Length > 0)
 				{
-					colorMat.SetInt("_ColorCount", paletteColors.Length);
+					colorMat.SetInt("_ColorCount", colorCount);
 					colorMat.SetColorArray("_Colors", paletteColors);
 
 					Graphics.Blit(dithered, destination, colorMat);
